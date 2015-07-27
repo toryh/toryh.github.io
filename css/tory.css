@@ -1,9 +1,8 @@
-h1 {
-	font-family: "soleil", sans-serif;
-}
-
-p {
+html {
 	font-family: "edita", sans-serif;
+}
+h1 {
+	font-family: "proxima-nova", sans-serif;
 }
 
 .container {
