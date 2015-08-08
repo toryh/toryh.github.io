@@ -27,9 +27,28 @@ h1 {
 	background-position: 50% 50%;
 }
 
+ul.social {
+	margin: 30px 0;
+	padding: 0;
+	text-align: center;
+}
+
+ul.social li{
+	display: inline-block;
+}
+
+ul.social li svg {
+	width: 40px;
+}
+
+
+
 @media all and (min-width: 768px) {
 	.photo {
 		height: 600px;
+	}
+	ul.social li svg {
+		width: 60px;
 	}
 }
 
