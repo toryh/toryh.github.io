@@ -1,5 +1,6 @@
 html {
 	font-family: "edita", sans-serif;
+	-webkit-font-smoothing: antialiased;
 }
 h1 {
 	font-family: "proxima-nova", sans-serif;
@@ -17,7 +18,7 @@ h1 {
 	-webkit-flex: 1 100%;
 }
 .copy {
-
+	padding: 5% 8%;
 }
 .photo {
 	height: 400px;
@@ -54,18 +55,25 @@ ul.social li svg {
 
 @media all and (min-width: 1024px) {
 	.copy {
-		flex: 1 0px;
-		-webkit-flex: 1 0px;
-		order: 1;
-		-webkit-order: 1;
-		padding: 5% 5% 10%;
+		padding: 5% 5% 2%;
+		overflow: scroll;
+	    position: absolute;
+	    left: 0;
+	    top: 0;
+	    bottom: 0;
+	    color: #151515;
+	    background: #FFF;
+	    width: 30%;
 	}
 	.photo {
-		flex: 2 0px;
-		-webkit-flex: 2 0px;
-		order: 2;
-		-webkit-order: 2;
+
 		height: 100vh;
+		overflow: hidden;
+	    position: absolute;
+	    top: 0;
+	    right: 0;
+	    bottom: 0;
+	    width: 70%;
 	}
 }
 
