@@ -6,6 +6,10 @@ h1 {
 	font-family: "proxima-nova", sans-serif;
 }
 
+p {
+	font-size: 1.25rem;
+}
+
 .container {
 	display: flex;
 	display: -webkit-flex;
@@ -22,10 +26,11 @@ h1 {
 }
 .photo {
 	height: 400px;
-	background-image: url(https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/3/000/0dd/140/2a27247.jpg);
+	background-image: url("../img/toryhobson.jpg");
 	-webkit-background-size: cover;
 	background-size: cover;
-	background-position: 50% 50%;
+	background-position: right 20%;
+
 }
 
 ul.social {
