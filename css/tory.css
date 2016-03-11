@@ -25,7 +25,7 @@ p {
 	padding: 5% 8%;
 }
 .photo {
-	height: 400px;
+	height: 350px;
 	background-image: url("../img/toryhobson.jpg");
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -81,4 +81,3 @@ ul.social li svg {
 	    width: 70%;
 	}
 }
-
