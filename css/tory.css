@@ -1,7 +1,7 @@
-html, body {
+html {
 	font-family: "edita", sans-serif;
 	-webkit-font-smoothing: antialiased;
-	font-size: 100%;
+	font-size: 16px;
 }
 
 h1 {
@@ -65,7 +65,9 @@ ul.social li svg {
 }
 
 @media all and (min-width: 1024px) {
-
+	h1 {
+		font-size: 2rem;
+	}
 	.copy {
 		padding: 5% 5% 2%;
 		overflow: scroll;
@@ -90,5 +92,7 @@ ul.social li svg {
 }
 
 @media all and (min-width: 1280px) {
-
+	h1 {
+		font-size: 3rem;
+	}
 }
