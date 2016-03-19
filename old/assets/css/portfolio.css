@@ -1,0 +1,195 @@
+@import url(http://reset5.googlecode.com/hg/reset.min.css);
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('/assets/fonts/icomoon.eot');
+	src:url('/assets/fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('/assets/fonts/icomoon.ttf') format('truetype'),
+		url('/assets/fonts/icomoon.woff') format('woff'),
+		url('/assets/fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class*="icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tory {
+	display: block;
+	margin-left: 20px;
+}
+.icon-tory:before {
+font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	content: "\e600";
+	display: block;
+	font-size: 90px;
+	line-height: 50px;
+	color: #555;
+	text-align: center;
+}
+
+
+h1 {
+	text-align: center;
+	margin: 25px 20px 15px;
+	font-family: "proxima-nova",sans-serif;
+	font-size: 22px;
+	line-height: 28px;
+	color: #555;
+	font-weight: 400;
+}
+strong {
+	font-weight: 700;
+}
+p {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+#portfolio-more .container p.centered {
+	text-align: center;
+	margin-bottom: 40px;
+}
+#portfolio .container, #about {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 50px 0 40px 0;
+}
+
+#about ul {
+	margin: 0;
+	font-family: "proxima-nova",sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+#about ul li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+#about ul li a {
+	display: inline-block;
+	padding: 0 5px;
+	text-decoration: none;
+	color: #aaa;
+}
+
+
+#portfolio .netspend {
+	background-color: #26A9CF;
+}
+#portfolio .vatech {
+	background-color: #BCB7A6;
+}
+#portfolio .moodsoother {
+	background-color: #c177aa;
+}
+#portfolio .genesistoday {
+	background-color: #9ac97a;
+}
+#portfolio .firstand20 {
+	background-color: #aaa;
+}
+
+#portfolio .container h2, #portfolio-more .container h2 {
+	text-align: center;
+	margin: 25px 20px 15px;
+	font-family: "proxima-nova",sans-serif;
+	font-size: 36px;
+	color: white;
+	text-shadow: 0px 1px 0px rgba(0,0,0,0.2);
+}
+#portfolio-more .container h2 {
+	margin-top: 0;
+	text-shadow: none;
+}
+#portfolio-more .netspend .container h2 {
+	color: #444;
+	margin-bottom: 10px;
+}
+#portfolio-more .container h3 {
+	text-align: center;
+	font-family: "adelle",serif;
+	font-weight: normal;
+	font-style: italic;
+	color: #666;
+	font-size: 24px;
+}
+#portfolio .container p, #portfolio-more .container p {
+	max-width: 800px;
+	margin: 10px auto;
+	padding: 0 20px;
+	font-family: "adelle",serif;
+	color: rgba(0,0,0,0.6);
+}
+#portfolio .container p a, #portfolio-more .container p a {
+	color: rgba(0,0,0,0.75);
+}
+#portfolio-more .container p a.btn {
+	font-family: "proxima-nova",sans-serif;
+	background-color: #bbb;
+	color: #fff;
+	padding: 10px 20px;
+	text-decoration: none;
+	border-radius: 200px;
+	font-size: 16px;
+	transition: background-color 100ms ease-in;
+}
+#portfolio-more .container p a.btn:hover {
+	background-color: #ccc;
+}
+#portfolio .container img {
+	display: block;
+	width: 100%;
+	max-width: 640px;
+	margin: 0px auto;
+}
+#portfolio-more .container img.desktop {
+	display: block;
+	width: 95%;
+	max-width: 1165px;
+	margin: 20px auto 80px;
+	border: 1px solid #ccc;
+}
+#portfolio-more .container hr.caption-line {
+	margin: 20px auto;
+	height: 5px;
+	border:none;
+	background-color: #ddd;
+	width: 100px;
+}
+#portfolio-more .container p.caption {
+	color: #999;
+	font-size: 16px;
+	font-style: italic;
+}
+
+
+@media (min-width: 600px) {
+	h1 {
+		font-size: 24px;
+		line-height: 30px;
+	}
+}
