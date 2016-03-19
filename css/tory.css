@@ -2,18 +2,21 @@ html {
 	font-family: "edita", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	font-size: 18px;
-	line-height: 100%;
 }
 
 h1 {
 	font-size: 1.75rem;
-	line-height: 120%;
+	line-height: 115%;
 	font-family: "proxima-nova", sans-serif;
 }
 
 a {
 	color: #0279B6;
 	text-decoration: none;
+}
+
+small {
+	line-height: 100%;
 }
 
 .container {
