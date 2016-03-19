@@ -6,7 +6,7 @@ html {
 
 h1 {
 	font-size: 1.625rem;
-	line-height: 115%;
+	line-height: 120%;
 	font-family: "proxima-nova", sans-serif;
 }
 
@@ -99,7 +99,7 @@ ul.social li svg {
 
 @media all and (min-width: 1280px) {
 	html {
-		font-size: 24px;
+		font-size: 23px;
 	}
 }
 
@@ -109,4 +109,5 @@ ul.social li svg {
 	}
 	.copy {
 		padding: 5% 5% 2%;
+	}	
 }
