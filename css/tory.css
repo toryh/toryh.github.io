@@ -1,16 +1,14 @@
-html {
+html, body {
 	font-family: "edita", sans-serif;
 	-webkit-font-smoothing: antialiased;
-}
-h1 {
-	font-family: "proxima-nova", sans-serif;
-	font-size: 1.75rem;
-	line-height: 110%;
+	font-size: 100%;
 }
 
-p {
-	font-size: 1.25rem;
+h1 {
+	font-family: "proxima-nova", sans-serif;
 }
+
+
 
 a {
 	color: #0279B6;
@@ -57,10 +55,7 @@ ul.social li svg {
 
 
 @media all and (min-width: 768px) {
-	h1 {
-		font-size: 2rem;
-		line-height: 115%;
-	}
+
 	.photo {
 		height: 600px;
 	}
@@ -70,10 +65,7 @@ ul.social li svg {
 }
 
 @media all and (min-width: 1024px) {
-	h1 {
-		font-size: 2.25rem;
-		line-height: 120%;
-	}
+
 	.copy {
 		padding: 5% 5% 2%;
 		overflow: scroll;
@@ -98,11 +90,5 @@ ul.social li svg {
 }
 
 @media all and (min-width: 1280px) {
-	h1 {
-		font-size: 2.50rem;
-		line-height: 120%;
-	}
-	p {
-		font-size: 150%;
-	}
+
 }
