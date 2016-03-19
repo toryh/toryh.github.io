@@ -2,10 +2,11 @@ html {
 	font-family: "edita", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	font-size: 18px;
+	line-height: 100%;
 }
 
 h1 {
-	font-size: 2rem;
+	font-size: 1.75rem;
 	line-height: 120%;
 	font-family: "proxima-nova", sans-serif;
 }
