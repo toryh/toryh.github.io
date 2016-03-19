@@ -10,6 +10,10 @@ h1 {
 	font-family: "proxima-nova", sans-serif;
 }
 
+p {
+	font-size: 1.25rem;
+}
+
 a {
 	color: #0279B6;
 	text-decoration: none;
@@ -61,6 +65,9 @@ ul.social li svg {
 @media all and (min-width: 768px) {
 	html {
 		font-size: 20px;
+	}
+	p {
+		font-size: 1rem;
 	}
 	.photo {
 		height: 600px;
