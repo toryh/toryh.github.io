@@ -75,7 +75,7 @@ ul.social li svg {
 		font-size: 22px;
 	}
 	.copy {
-		padding: 5% 5% 2%;
+		padding: 3% 5% 2%;
 		overflow: scroll;
 	    position: absolute;
 	    left: 0;
@@ -101,4 +101,12 @@ ul.social li svg {
 	html {
 		font-size: 24px;
 	}
+}
+
+@media all and (min-width: 1920) {
+	html {
+		font-size: 28px;
+	}
+	.copy {
+		padding: 5% 5% 2%;
 }
