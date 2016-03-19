@@ -15,7 +15,8 @@ a {
 	text-decoration: none;
 }
 
-small {
+p.small {
+	font-size: 0.75rem;
 	line-height: 100%;
 }
 
