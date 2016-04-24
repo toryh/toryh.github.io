@@ -1,0 +1,129 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Tory Hobson</title>
+        <meta name="keywords"  content="design,responsive,css,illustration,typography,web design,product,austin,dc,baltimore,maryland,interaction,ui,ux,user interface" />
+        <link rel='next' href='http://www.toryhobson.com/more' />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/tory.css">
+        <link rel="stylesheet" href="https://npmcdn.com/flickity@1.2/dist/flickity.min.css">
+        <script src="https://npmcdn.com/flickity@1.2/dist/flickity.pkgd.min.js"></script>
+        <script src="//use.typekit.net/dqq3hhz.js"></script>
+        <script src="//use.typekit.net/dqq3hhz.js"></script>
+        <script>try{Typekit.load();}catch(e){}</script>
+
+          <style>
+            .videobox {
+              margin: 20px;
+              padding: 93px 27px;
+              background-image: url(img/iphone-shell.png);
+              background-size: 300px;
+              background-repeat: no-repeat;
+              float: left;
+            }
+
+            .videobox2 {
+              margin: 20px;
+              padding: 75px 22px;
+              background-image: url(img/iphone-shell.png);
+              background-size: 240px;
+              background-repeat: no-repeat;
+              float: left;
+            }
+            /* external css: flickity.css */
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body { font-family: sans-serif; }
+
+.gallery {
+  background: #EEE;
+}
+
+.gallery-cell {
+  width: 80%;
+  height: 600px;
+  margin-right: 10px;
+  background: #8C8;
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+
+  color: white;
+}
+          </style>
+    </head>
+    <body class="homepage">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+
+        <h1>Flickity - wrapAround</h1>
+
+        <!-- Flickity HTML init -->
+        <div class="gallery js-flickity"
+          data-flickity-options='{ "wrapAround": false }'>
+          <div class="gallery-cell">
+            <div class="videobox">
+              <video src="videos/Pre-Login.mov" controls style="width: 250px;"></video>
+            </div>
+          </div>
+          <div class="gallery-cell">
+            <div class="videobox">
+              <video src="videos/Pre-Login.mov" controls style="width: 250px;"></video>
+            </div>
+          </div>
+          <div class="gallery-cell"></div>
+          <div class="gallery-cell"></div>
+          <div class="gallery-cell"></div>
+        </div>
+
+
+        <div class="wrapper">
+          <h2>Prototypes</h2>
+          <div class="videobox">
+            <video src="videos/Pre-Login.mov" controls style="width: 250px;"></video>
+          </div>
+          <p>
+            In all honestly, eating as much pizza as humanly possible is really what I do best. In all honestly, eating as much pizza as humanly possible is really what I do best. In all honestly, eating as much pizza as humanly possible is really what I do best.
+          </p>
+        </div>
+
+
+
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>

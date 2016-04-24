@@ -26,9 +26,9 @@ p.small {
 .container {
 	display: flex;
 	display: -webkit-flex;
-  	flex-flow: row wrap;
-  	-webkit-flex-flow: row wrap;
-  	align-items: stretch;
+  flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+  align-items: stretch;
 }
 .copy, .photo {
 	flex: 1 100%;
