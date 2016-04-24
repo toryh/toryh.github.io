@@ -108,6 +108,9 @@ ul.social li svg {
 	html {
 		font-size: 23px;
 	}
+	p.big-text {
+		font-size: 28px;
+	}
 }
 
 @media all and (min-width: 1920px) {
