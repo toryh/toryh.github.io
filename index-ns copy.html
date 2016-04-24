@@ -30,6 +30,7 @@
             white-space: nowrap; /* important */
             overflow: auto;
             position: relative;
+            margin: 0 20px;
           }
           .flow::-webkit-scrollbar {
               -webkit-appearance: none;
@@ -53,20 +54,23 @@
             width: 250px;
             margin: 0 10px 2px;
           }
+          .flow img.first {
+            margin-left: 10px;
+          }
 
 
           .demo_wrapper {
-	width: 50%;
-	margin: 0 auto;
-}
-@media only screen and (max-device-width: 800px), screen and (max-width: 800px) {
-  .demo_wrapper {
-    width: 80%;
-  }
-}
-.demo_block {
-	width: 100%;
-}
+          	width: 50%;
+          	margin: 0 auto;
+          }
+          @media only screen and (max-device-width: 800px), screen and (max-width: 800px) {
+            .demo_wrapper {
+              width: 80%;
+            }
+          }
+          .demo_block {
+          	width: 100%;
+          }
 
 
         </style>
@@ -92,15 +96,18 @@
           </p>
           <h2>High Fidelity Mockups &amp; Flows</h2>
           <h3>Mobile Refill</h3>
-          <div class="flow">
-            <img src="img/mobile-refill/refill1.png" />
-            <img src="img/mobile-refill/refill2.png" />
-            <img src="img/mobile-refill/refill3.png" />
-            <img src="img/mobile-refill/refill4.png" />
-            <img src="img/mobile-refill/refill5.png" />
-            <img src="img/mobile-refill/refill6.png" />
-            <img src="img/mobile-refill/refill7.png" />
-          </div>
+        </div>
+        <div class="flow">
+          <img src="img/mobilerefill/refill1.png" class="first" />
+          <img src="img/mobilerefill/refill2.png" />
+          <img src="img/mobilerefill/refill3.png" />
+          <img src="img/mobilerefill/refill4.png" />
+          <img src="img/mobilerefill/refill5.png" />
+          <img src="img/mobilerefill/refill6.png" />
+          <img src="img/mobilerefill/refill7.png" class="last" />
+        </div>
+        
+        <div class="wrapper">
           <h2>Prototypes</h2>
           <div class="prototype">
             <h3>Pre-Login Marketing</h3>
