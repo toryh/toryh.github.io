@@ -12,6 +12,12 @@ h1 {
 	font-size: 1.625rem;
 	line-height: 120%;
 }
+h4 {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #ccc;
+}
 
 p {
 	font-size: 1.2rem;
