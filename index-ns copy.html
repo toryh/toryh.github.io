@@ -53,7 +53,7 @@
             white-space: nowrap; /* important */
             overflow: auto;
             position: relative;
-            margin: 0 20px;
+            margin: 0;
           }
           .flow::-webkit-scrollbar {
               -webkit-appearance: none;
@@ -74,15 +74,10 @@
           }
           .flow img {
             display: inline-block;
-            width: 250px;
+            width: 200px;
             margin: 0 10px 2px;
           }
-          .flow img.first {
-            margin-left: 10px;
-          }
-          .flow img.left {
-            margin-right: 10px;
-          }
+
 
 
           .demo_wrapper {
@@ -117,7 +112,7 @@
           </p>
           <h4>Areas of Strength</h4>
           <div class="lists">
-            <ul style="margin: 0 5%; padding: 0; width: 40%; float: left;">
+            <ul class="areas">
               <li>
                 Expert knowledge of design process and creating deliverables such as wireframes, mockups, prototypes and detailed documentation
               </li>
@@ -128,7 +123,7 @@
                 Gathering feedback from design reviews and usability tests, then refining designs to ensure the best possible experience
               </li>
             </ul>
-              <ul style="margin: 0 5%; padding: 0; width: 40%; float: left;">
+              <ul class="areas">
               <li>
                 Strong people skills with the ability to assume leadership roles in team environments
               </li>
@@ -141,13 +136,17 @@
             </ul>
           </div>
           <h4 class="clear">Most recent work</h4>
-          <h1>NetSpend</h1>
-          <p>
+          <h1 class="portfolio">NetSpend</h1>
+          <p class="date">
             2012 &ndash; Present
           </p>
-          <h2>High Fidelity Mockups &amp; Flows</h2>
+          <img src="img/whitelabel/netspend.png" class="main-project-photo" />
+          <h2 class="portfolio">High Fidelity Mockups &amp; Flows</h2>
           <h3>Mobile Refill</h3>
-        </div>
+          <p>
+            NetSpend’s Mobile Refill feature allows users to add money to their existing prepaid phone plan. By doing this within our app, users get a $1.00 credit in return after each refill.
+          </p>
+
         <div class="flow">
           <img src="img/refill/refill1.png" class="first" />
           <img src="img/refill/refill2.png" />
@@ -158,8 +157,8 @@
           <img src="img/refill/refill7.png" class="last" />
         </div>
 
-        <div class="wrapper">
-          <h2>Prototypes</h2>
+
+          <h2 class="portfolio">Prototypes</h2>
           <div class="prototype">
             <h3>Pre-Login Marketing</h3>
             <p>

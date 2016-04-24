@@ -12,11 +12,29 @@ h1 {
 	font-size: 1.625rem;
 	line-height: 120%;
 }
+h2 {
+	font-size: 1.25rem;
+	line-height: 120%;
+	margin-top: 100px;
+}
+h3 {
+	font-size: 1.125rem;
+	color: #666;
+}
+h1.portfolio {
+	text-align: center;
+	margin-bottom: 0;
+}
 h4 {
+	margin: 40px 0 20px;
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color: #ccc;
+	font-size: 16px;
+}
+.portfolio {
+	text-align: center;
 }
 
 p {
@@ -30,6 +48,12 @@ a {
 
 p.small {
 	font-size: 0.825rem;
+}
+p.date {
+	text-align: center;
+	color: #ccc;
+	margin: 5px 0 40px;
+	font-size: 16px;
 }
 
 .container {
@@ -69,6 +93,16 @@ ul.social li svg {
 	width: 40px;
 }
 
+ul.areas {
+	margin: 0;
+}
+
+.main-project-photo {
+	width: 80%;
+	margin: 0 auto;
+	display: block;
+}
+
 
 
 @media all and (min-width: 768px) {
@@ -102,7 +136,6 @@ ul.social li svg {
 	    width: 30%;
 	}
 	.photo {
-
 		height: 100vh;
 		overflow: hidden;
 	    position: absolute;
@@ -110,6 +143,12 @@ ul.social li svg {
 	    right: 0;
 	    bottom: 0;
 	    width: 70%;
+	}
+	ul.areas {
+		margin: 0 5% 40px;
+		padding: 0;
+		width: 40%;
+		float: left;
 	}
 }
 
