@@ -28,7 +28,7 @@ h1.portfolio {
 h2 {
 	font-size: 1.25rem;
 	line-height: 120%;
-	margin-top: 100px;
+	margin-top: 120px;
 }
 h3 {
 	font-size: 1.125rem;
@@ -52,6 +52,9 @@ p {
 
 .center {
 	text-align: center;
+}
+.spacing {
+	margin-top: 120px;
 }
 
 a {
