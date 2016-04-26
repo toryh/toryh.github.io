@@ -132,6 +132,16 @@ p.project-type {
 	color: #999;
 }
 
+.prototype video {
+	width: 100px;
+	float: right;
+	margin-left: 40px;
+}
+
+.marketing-sites img {
+	width: 100%;
+}
+
 
 
 @media all and (min-width: 768px) {
@@ -151,8 +161,17 @@ p.project-type {
 		margin: 120px 0;
 	}
 	.prototype video {
+		width: 320px;
 		float: right;
 		margin-left: 40px;
+	}
+	.marketing-sites {
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+	.marketing-sites img {
+		float: left;
+		width: 50%;
 	}
 }
 
