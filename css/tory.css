@@ -131,7 +131,9 @@ p.project-type {
 	font-style: italic;
 	color: #999;
 }
-
+.prototype {
+	margin: 120px 0 0;
+}
 .prototype video {
 	width: 100px;
 	float: right;
