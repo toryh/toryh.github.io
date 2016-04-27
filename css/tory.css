@@ -65,7 +65,7 @@ a {
 p.small {
 	margin-top: 0;
 	font-size: 0.825rem;
-	color: #ccc;
+	color: #bbb;
 }
 p.date {
 	text-align: center;
@@ -105,7 +105,7 @@ a.work-link {
 	border-radius: 50px;
 }
 ul.social {
-	margin: 40px 0 0px;
+	margin: 50px 0 0px;
 	padding: 0;
 	text-align: center;
 }
@@ -117,7 +117,7 @@ ul.social li{
 ul.social li svg {
 	width: 40px;
 	color: red;
-	fill: #ccc;
+	fill: #bbb;
 }
 
 ul.areas {
@@ -193,7 +193,7 @@ p.project-type {
 		font-size: 22px;
 	}
 	.copy {
-		padding: 3% 5% 2%;
+		padding: 3% 5% 1%;
 		overflow: scroll;
 	    position: absolute;
 	    left: 0;
