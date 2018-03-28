@@ -9,7 +9,10 @@
 }
 
 html{
-	font: normal 16px sans-serif;
+	font-size: 16px;
+	font-family: "Gotham A", "Gotham B", sans-serif;
+	font-style: normal;
+	font-weight: 400;
 }
 body{
 	color: #000;
