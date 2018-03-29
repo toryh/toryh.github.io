@@ -10,9 +10,9 @@
 
 html{
 	font-size: 16px;
-	font-family: "Gotham A", "Gotham B", sans-serif;
+	font-family: "Whitney SSm A", "Whitney SSm B";
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 500;
 }
 body{
 	color: #000;
@@ -20,6 +20,9 @@ body{
 body.dark-theme{
 	color: #999;
 	background-color: #333;
+}
+h1, h2, h3 {
+	font-weight: 600;
 }
 h1 {
 	font-size: 2rem;
