@@ -101,13 +101,7 @@ a.btn{
 	text-align: center;
 }
 
-hr{
-	width: 160px;
-	height: 4px;
-	background-color: #19B5FE;
-	border: 0;
-	margin: 2rem auto;
-}
+
 
 
 .gray {
@@ -125,6 +119,13 @@ ul.grid{
 /*-------------
  	Grid
 -------------*/
+hr{
+	width: 80px;
+	height: 4px;
+	background-color: #19B5FE;
+	border: 0;
+	margin: .5rem auto 2rem;
+}
 section {
 	padding: 4rem 1.5rem;
 }
@@ -149,6 +150,14 @@ section {
 
 
 @media (min-width: 600px) {
+	hr{
+		width: 160px;
+		height: 4px;
+		background-color: #19B5FE;
+		border: 0;
+		margin: 2rem auto 4rem;
+	}
+
 	section {
 		padding: 4rem 1rem;
 	}
@@ -250,6 +259,12 @@ header nav li:last-child{
 	padding-top: 40vh;
 }
 
+.hero h3 {
+	font-size: 1rem;
+	font-style: italic;
+	font-weight: 300;
+}
+
 .short {
 	background-color: #f6f6f6;
 	color: #000;
@@ -277,9 +292,6 @@ header nav li:last-child{
 	background-color: #414a4f;
 	opacity: 0.75;
 }
-
-
-
 .hero a.btn{
 	padding: 20px 46px;
 }
