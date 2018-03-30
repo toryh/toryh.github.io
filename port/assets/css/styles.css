@@ -26,6 +26,7 @@ h1, h2, h3 {
 }
 h1 {
 	font-size: 2rem;
+	margin-bottom: .5rem;
 }
 h2 {
 	font-size: 1.625rem;
@@ -33,10 +34,20 @@ h2 {
 h3 {
 	font-size: 1.375rem;
 }
+h4 {
+	font-size: 1.25rem;
+}
 p, ul.text {
 	font-size: 1.125rem;
 	line-height: 1.725rem;
 	margin: 1.5rem 0;
+}
+p.note {
+	font-size: 1rem;
+	line-height: 1.5rem;
+	font-style: italic;
+	font-weight: 300;
+	color: #666;
 }
 @media (min-width: 600px){
 	h1 {
@@ -58,7 +69,7 @@ p, ul.text {
 ul.text li {
 	margin: 1.5rem 0;
 	position: relative;
-  padding-left: 2rem;
+  padding-left: 1.5rem;
 }
 
 ul.text li:before {
@@ -69,7 +80,7 @@ ul.text li:before {
   height: 6px;
   display: block;
   position: absolute;
-  top: 11px;
+  top: 9px;
   left: 0;
   background-color: #19B5FE;
 }
@@ -253,14 +264,13 @@ header nav li:last-child{
 .hero{
 	position: relative;
 	justify-content: center;
-	min-height: 100vh;
+	min-height: 400px;
 	color: #fff;
 	text-align: center;
-	padding-top: 40vh;
+	padding-top: 160px;
 }
 
-.hero h3 {
-	font-size: 1rem;
+.hero h4 {
 	font-style: italic;
 	font-weight: 300;
 }
@@ -278,7 +288,6 @@ header nav li:last-child{
 	width: 100%;
 	height: 100%;
 	background-size: cover;
-	background-color: #2196F3;
 	z-index: -1;
 }
 
@@ -289,148 +298,18 @@ header nav li:last-child{
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: #414a4f;
 	opacity: 0.75;
 }
+
 .hero a.btn{
 	padding: 20px 46px;
 }
 
-@media (max-width: 800px){
+@media (min-width: 800px){
 
 	.hero{
-		min-height: 600px;
-	}
-
-}
-
-
-
-/*--------------------
- 	Our Work Section
----------------------*/
-
-.оur-work{
-	background-color: #fff;
-}
-
-.grid li{
-	padding: 1rem;
-	height: 350px;
-	border-radius: 3px;
-
-	background-clip: content-box;
-	background-size: cover;
-	background-position: center;
-	background-color: #333;
-}
-
-.grid li.small{
-	flex-basis: 40%;
-}
-
-.grid li.large{
-	flex-basis: 60%;
-}
-
-
-@media (max-width: 1000px){
-
-	.our-work .grid li.small,
-	.our-work .grid li.large{
-		flex-basis: 100%;
-	}
-
-}
-
-
-
-/*----------------------
- 	Features Section
-----------------------*/
-
-.features{
-	background-color: #f7f7f7;
-}
-
-.features .grid li{
-	padding: 0 30px;
-	flex-basis: 33%;
-	text-align: center;
-}
-
-.features .grid li i{
-    font-size: 50px;
-    color: #2196F3;
-    margin-bottom: 25px;
-}
-
-.features .grid li p{
-    margin: 0;
-}
-
-@media (max-width: 1000px){
-
-	.features .grid li{
-		flex-basis: 70%;
-		margin-bottom: 65px;
-	}
-
-	.features .grid li:last-child{
-		margin-bottom: 0;
-	}
-
-}
-
-
-@media (max-width: 600px){
-
-	.features .grid li{
-		flex-basis: 100%;
-	}
-
-}
-
-
-
-
-
-/*---------------------
- 	Contact Section
----------------------*/
-
-.contact{
-	background-color: #f7f7f7;
-}
-
-.contact form{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-wrap: wrap;
-
-	max-width: 800px;
-	width: 80%;
-}
-
-.contact form input{
-	padding: 15px;
-	flex: 1;
-	margin-right: 30px;
-	font-size: 18px;
-	color: #555;
-}
-
-.contact form .btn{
-	padding: 18px 42px;
-}
-
-
-@media (max-width: 800px){
-
-	.contact form input{
-		flex-basis: 100%;
-		margin: 0 0 20px 0;
+		min-height: 100vh;
+		padding-top: 40vh;
 	}
 
 }
@@ -439,52 +318,18 @@ header nav li:last-child{
 
 
 /*-------------
- 	Footer
+ 	Netspend Colors
 -------------*/
-
-footer{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-	color: #fff;
-	background-color: #414a4f;
-	padding: 60px 0;
+.netspend .hero .background-image, .netspend .hero .background-image:after {
+	background-color: #0092BC;
 }
-
-footer ul{
-	display: flex;
-	margin-bottom: 25px;
-	font-size: 32px;
+.netspend ul.text li:before {
+	background-color: #0092BC;
+	border: 2px solid #0092BC;
 }
-
-footer ul li{
-	margin: 0 8px;
+.netspend hr {
+	background-color: #0092BC;
 }
-
-footer ul li:first-child{
-	margin-left: 0;
-}
-
-footer ul li:last-child{
-	margin-right: 0;
-}
-
-footer p{
-	text-transform: uppercase;
-	font-size: 14px;
-	color: rgba(255,255,255,0.6);
-	margin-bottom: 10px;
-}
-
-footer p a{
-	color: #fff;
-}
-
-@media (max-width: 700px){
-
-	footer{
-		padding: 80px 15px;
-	}
-
+.netspend a {
+	color: #0092BC;
 }
