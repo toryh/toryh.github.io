@@ -138,7 +138,7 @@ hr{
 	margin: .5rem auto 2rem;
 }
 section {
-	padding: 4rem 1.5rem;
+	padding: 2rem 1.5rem;
 }
 
 .container-960{
@@ -170,7 +170,7 @@ section {
 	}
 
 	section {
-		padding: 4rem 1rem;
+		padding: 4rem 1.5rem;
 	}
 
   .flex-grid {
@@ -299,10 +299,6 @@ header nav li:last-child{
 	width: 100%;
 	height: 100%;
 	opacity: 0.75;
-}
-
-.hero a.btn{
-	padding: 20px 46px;
 }
 
 @media (min-width: 800px){
