@@ -21,12 +21,12 @@ body.dark-theme{
 	color: #999;
 	background-color: #333;
 }
-h1, h2, h3 {
+h1, h2, h3, h4 {
 	font-weight: 600;
+	margin-bottom: 1rem;
 }
 h1 {
 	font-size: 2rem;
-	margin-bottom: .5rem;
 }
 h2 {
 	font-size: 1.625rem;
@@ -40,9 +40,9 @@ h4 {
 p, ul.text {
 	font-size: 1.125rem;
 	line-height: 1.725rem;
-	margin: 1.5rem 0;
+	margin: 0 0 2rem;
 }
-p.note {
+p.caption {
 	font-size: 1rem;
 	line-height: 1.5rem;
 	font-style: italic;
@@ -62,7 +62,7 @@ p.note {
 	p, ul.text {
 		font-size: 1.3125rem;
 		line-height: 2rem;
-		margin: 2rem 0;
+		margin: 0 0 2rem;
 	}
 }
 
@@ -103,29 +103,6 @@ a:hover{
 	opacity: 0.9;
 }
 
-a.btn{
-	color: #fff;
-	border-radius: 4px;
-	text-transform: uppercase;
-	background-color: #19B5FE;
-	font-weight: 800;
-	text-align: center;
-}
-
-
-
-
-.gray {
-	background-color: #f6f6f6;
-}
-
-
-ul.grid{
-	width: 100%;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
 
 /*-------------
  	Grid
@@ -222,8 +199,6 @@ header{
 	padding: 35px 100px 0;
 }
 
-
-
 header nav{
 	display: flex;
 }
@@ -240,21 +215,17 @@ header nav li:last-child{
 	margin-right: 0;
 }
 
-
-
 @media (max-width: 1000px){
 	header{
 		padding: 20px 50px;
 	}
 }
 
-
 @media (max-width: 700px){
 	header{
 		flex-direction: column;
 	}
 }
-
 
 
 /*----------------
@@ -310,8 +281,24 @@ header nav li:last-child{
 
 }
 
-
-
+/*-------------
+ 	Work
+-------------*/
+.leadin {
+	margin-bottom: 4rem;
+	padding: 2rem;
+	background-color: #f6f6f6;
+	border-radius: 4px;
+}
+.leadin p {
+	margin: 0;
+}
+.leadin img {
+	width: 40px;
+	border-radius: 8px;
+	float: left;
+	margin: .25rem 2rem 1rem 0;
+}
 
 /*-------------
  	Netspend Colors
