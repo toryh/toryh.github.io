@@ -159,12 +159,17 @@ section {
 
 .projects .one-four, .projects .one-two {
 	background-color: #fff;
-	margin: .5rem;
 	padding: 0;
+	margin: 0;
 }
 .projects .one-four img {
 	width: 100%;
 	border-bottom: 1px solid #eee;
+}
+
+@media (min-width: 600px) {
+	.projects .one-four {
+		margin: 2rem;
 }
 
 @media (min-width: 600px) {
