@@ -116,26 +116,39 @@ a:hover{
  	Grid
 -------------*/
 hr{
-	width: 80px;
-	height: 4px;
-	background-color: #19B5FE;
+	display: block;
 	border: 0;
-	margin: .5rem auto 2rem;
+	text-align: center;
+	overflow: visible;
+}
+hr.section-divider:before {
+	content: '...';
+    display: inline-block;
+    margin-left: .6em;
+    color: #333;
+    position: relative;
+    top: -30px;
+    font-family: Georgia,Cambria,"Times New Roman",Times,serif;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: .6em;
 }
 section {
 
 }
-
+.gray {
+	background-color: #eee;
+}
+.container, .container-960, .container-1280 {
+	margin: 0 auto;
+	padding: 2rem;
+}
 .container-960{
 	max-width: 960px;
-	margin: 0 auto;
 }
-
 .container-1280{
 	max-width: 1280px;
-	margin: 0 auto;
 }
-
 .flex-grid {
   display: block;
 }
@@ -144,14 +157,19 @@ section {
   flex: auto;
 }
 
+.projects .one-four, .projects .one-two {
+	background-color: #fff;
+	margin: .5rem;
+	padding: 0;
+}
+.projects .one-four img {
+	width: 100%;
+	border-bottom: 1px solid #eee;
+}
 
 @media (min-width: 600px) {
 	hr{
-		width: 160px;
-		height: 4px;
-		background-color: #19B5FE;
-		border: 0;
-		margin: 2rem auto 4rem;
+
 	}
 
 	section {
@@ -178,9 +196,6 @@ section {
   }
   .one-four {
     flex: 1;
-		background-color: #fff;
-		height: 200px;
-		padding: 1rem;
   }
   .two-four {
     flex: 2;
@@ -293,10 +308,10 @@ header nav li:last-child{
  	Work
 -------------*/
 .leadin {
-	margin: 0;
-	padding: 1.5rem 2rem;
 	background-color: #f6f6f6;
 	border-radius: 0px;
+	margin-bottom: 2rem;
+	padding: 1rem;
 }
 .leadin p {
 	margin: 0;
@@ -307,19 +322,18 @@ header nav li:last-child{
 	float: left;
 	margin: .25rem 1rem .25rem 0;
 }
-@media (min-width: 800px){
-	.leadin {
-		margin: 0 0 4rem;
-		padding: 2rem;
-		border-radius: 4px;
-	}
-	.leadin img {
-		margin: .25rem 2rem 1rem 0;
-	}
-}
 .pl {
 	width: 100%;
 }
+@media (min-width: 800px){
+	.leadin {
+		border-radius: 4px;
+	}
+	.leadin img {
+		margin: .25rem 1rem 1rem 0;
+	}
+}
+
 
 /*-------------
  	Netspend Colors
@@ -330,9 +344,6 @@ header nav li:last-child{
 .netspend ul.text li:before {
 	background-color: #FF8200;
 	border: 2px solid #FF8200;
-}
-.netspend hr {
-	background-color: #0092BC;
 }
 .netspend a {
 	color: #0092BC;
