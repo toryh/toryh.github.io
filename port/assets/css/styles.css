@@ -36,6 +36,8 @@ p, ul.text {
 	font-size: 1.125rem;
 	line-height: 1.725rem;
 	margin: 0 0 2rem;
+	font-weight: 400;
+	color: #333;
 }
 p.caption {
 	font-size: .875rem;
@@ -56,8 +58,7 @@ p.caption {
 	}
 	p, ul.text {
 		font-size: 1.25rem;
-		line-height: 1.875rem;
-		margin: 0 0 2rem;
+		line-height: 2rem;
 	}
 	p.caption {
 		font-size: 1rem;
