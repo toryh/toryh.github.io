@@ -15,11 +15,6 @@ html{
 	font-weight: 400;
 }
 body{
-	color: #000;
-}
-body.dark-theme{
-	color: #999;
-	background-color: #333;
 }
 h1, h2, h3, h4 {
 	font-weight: 600;
@@ -137,78 +132,10 @@ section {
 
 }
 .gray {
-	background-color: #eee;
-}
-.container, .container-960, .container-1280 {
-	margin: 0 auto;
-	padding: 2rem;
-}
-.container-960{
-	max-width: 960px;
-}
-.container-1280{
-	max-width: 1280px;
-}
-.flex-grid {
-  display: block;
-}
-.col {
-  margin: 2rem;
-  flex: auto;
+	background-color: #f6f6f6;
 }
 
-.projects .one-four, .projects .one-two {
-	background-color: #fff;
-	padding: 0;
-	margin: 0;
-}
-.projects .one-four img {
-	width: 100%;
-	border-bottom: 1px solid #eee;
-}
 
-@media (min-width: 600px) {
-	.projects .one-four {
-		margin: 2rem;
-}
-
-@media (min-width: 600px) {
-	hr{
-
-	}
-
-	section {
-
-	}
-
-  .flex-grid {
-    display: flex;
-  }
-  .col {
-    margin: 2rem;
-  }
-  .full {
-    flex: 1;
-  }
-  .one-two {
-    flex: 1;
-  }
-  .one-three {
-    flex: 1;
-  }
-  .two-three {
-    flex: 2;
-  }
-  .one-four {
-    flex: 1;
-  }
-  .two-four {
-    flex: 2;
-  }
-  .three-four {
-    flex: 2;
-  }
-}
 
 /*-------------
  	Header
@@ -330,6 +257,17 @@ header nav li:last-child{
 .pl {
 	width: 100%;
 }
+
+img.project-thumb {
+	width: 100%;
+}
+
+
+@media (min-width: 600px) {
+	.projects .one-four {
+		margin: 2rem;
+}
+}
 @media (min-width: 800px){
 	.leadin {
 		border-radius: 4px;
@@ -338,6 +276,8 @@ header nav li:last-child{
 		margin: .25rem 1rem 1rem 0;
 	}
 }
+
+
 
 
 /*-------------
