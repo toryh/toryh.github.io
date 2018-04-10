@@ -10,9 +10,9 @@
 
 html{
 	font-size: 16px;
-	font-family: "Whitney SSm A", "Whitney SSm B";
+	font-family: "Gotham A", "Gotham B";
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 300;
 }
 body{
 }
@@ -127,7 +127,7 @@ hr.section-divider:before {
 	content: '...';
     display: inline-block;
     margin-left: .6em;
-    color: #333;
+    color: #ddd;
     position: relative;
     top: -30px;
     font-family: Georgia,Cambria,"Times New Roman",Times,serif;
@@ -246,6 +246,29 @@ header nav li:last-child{
 /*-------------
  	Work
 -------------*/
+
+.carousel {
+  background: #EEE;
+}
+
+.carousel-cell {
+  width: 100%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  border-radius: 5px;
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
 .leadin {
 	background-color: #f6f6f6;
 	border-radius: 0px;
