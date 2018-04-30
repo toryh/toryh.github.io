@@ -13,6 +13,7 @@ html{
 	font-family: "Gotham A", "Gotham B";
 	font-style: normal;
 	font-weight: 300;
+	color: #444;
 }
 body{
 }
@@ -116,7 +117,7 @@ a:hover{
  	Navigation
 -------------*/
 header {
- max-width: 960px;
+ max-width: 1280px;
  height: 64px;
  margin: 0 auto;
  position: relative;
@@ -127,6 +128,10 @@ header {
 	top: 24px;
 	left: 24px;
 	position: absolute;
+	fill: red;
+}
+#toryhobson path {
+	fill: #444;
 }
 #hamburger {
 	top: 24px;
@@ -179,9 +184,13 @@ section {
 	background-color: #f6f6f6;
 }
 
-
-
-
+/*----------------
+ 	Home
+----------------*/
+.home h2 {
+	font-weight: 300;
+	color: #777;
+}
 
 /*----------------
  	Hero Section
