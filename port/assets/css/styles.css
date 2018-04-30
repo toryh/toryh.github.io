@@ -112,7 +112,44 @@ a:hover{
 	}
 }
 
-
+/*-------------
+ 	Navigation
+-------------*/
+header {
+ max-width: 960px;
+ height: 64px;
+ margin: 0 auto;
+ position: relative;
+}
+#toryhobson {
+	width: 64px;
+	height: 64px;
+	top: 24px;
+	left: 24px;
+	position: absolute;
+}
+#hamburger {
+	top: 24px;
+	right: 24px;
+	position: absolute;
+}
+ul.nav {
+	font-size: 2rem;
+	margin-top: 2rem;
+}
+ul.nav li a {
+	display: block;
+	border-bottom: 1px solid #eee;
+	padding: 8px 0;
+	font-weight: 600;
+	color: #2C8CFF;
+}
+ul.nav li:first-child a {
+	display: block;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	padding: 8px 0;
+}
 
 /*-------------
  	Grid
@@ -144,50 +181,6 @@ section {
 
 
 
-/*-------------
- 	Header
--------------*/
-
-header{
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 10;
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	color: #fff;
-	padding: 35px 100px 0;
-}
-
-header nav{
-	display: flex;
-}
-
-header nav li{
-	margin: 0 15px;
-}
-
-header nav li:first-child{
-	margin-left: 0;
-}
-
-header nav li:last-child{
-	margin-right: 0;
-}
-
-@media (max-width: 1000px){
-	header{
-		padding: 20px 50px;
-	}
-}
-
-@media (max-width: 700px){
-	header{
-		flex-direction: column;
-	}
-}
 
 
 /*----------------
