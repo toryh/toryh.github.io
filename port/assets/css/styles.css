@@ -13,7 +13,7 @@ html{
 	font-family: "Gotham A", "Gotham B";
 	font-style: normal;
 	font-weight: 300;
-	color: #444;
+	color: #333;
 }
 body{
 }
@@ -128,10 +128,9 @@ header {
 	top: 24px;
 	left: 24px;
 	position: absolute;
-	fill: red;
 }
 #toryhobson path {
-	fill: #444;
+	fill: #333;
 }
 #hamburger {
 	top: 24px;
