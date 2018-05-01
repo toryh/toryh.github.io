@@ -116,9 +116,11 @@ a:hover{
 /*-------------
  	Navigation
 -------------*/
+.start {
+	margin-top: 64px !important;
+}
 header {
  max-width: 1280px;
- height: 64px;
  margin: 0 auto;
  position: relative;
 }
@@ -128,6 +130,9 @@ header {
 	top: 24px;
 	left: 24px;
 	position: absolute;
+}
+.netspend #toryhobson path{
+	fill: #fff;
 }
 #toryhobson path {
 	fill: #333;
